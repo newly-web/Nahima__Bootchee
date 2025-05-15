@@ -7,7 +7,7 @@
     --col-blue:#2582A9;
     /* important things */
     --col-copper:#BB6C35; 
-    --col-lilac:#AFA8BA;
+    --col-lilac:#6b6772;
     --col-dark-blue:#14699E;
 
     /* *add rgba values if needed here*/
@@ -60,7 +60,7 @@ h5,
 h6 {
     font-family: 'Manrope', sans-serif;    
     font-weight: 400;
-    color: var(--col-light-grey);
+    color: var(--col-dark-blue);
 }
 
 
@@ -90,7 +90,7 @@ a {
     text-decoration: none;
 }
 a :hover{
-    color: var(--col-dark-blue);
+    color: var(--col-copper);
 }
 
 strong {
@@ -98,7 +98,7 @@ strong {
 }
 
 span {
-    font-size: var(--size-xs);
+  
     font-weight: 200;
     color: var(--col-lilac);
 }

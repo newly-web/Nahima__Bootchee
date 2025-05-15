@@ -1,0 +1,86 @@
+.footer a{
+    color: var(--col-copper);
+}
+
+.footer a:hover{
+    border-bottom:  solid 1px var(--col-copper);
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {  
+    }
+
+/* sm */
+@media (min-width: 640px) {
+    
+    }
+
+/* md */
+@media (min-width: 768px) {
+
+    .callout-banner{
+        display: none;
+    }
+    }
+
+/* lg */
+@media (min-width: 1024px) {
+
+    }
+
+/* xl */
+@media (min-width: 1280px) {
+    .footer h6{
+        color: var(--col-lilac);
+        font-size: var(--size-md);
+        font-weight: 200;
+    }
+        .callout-banner {
+            height: 6vh;
+            width: 99vw;
+            background-color: var(--col-copper);
+            color: white;
+            padding: 0.5rem 0;
+            overflow:hidden;
+        }
+    
+        .callout {
+            display: inline-block;
+            white-space: nowrap;
+            padding-left: 100%;
+            animation: ticker-scroll 25s linear infinite;
+        }
+                @keyframes ticker-scroll {
+                    0% {
+                        transform: translateX(0%);
+                    }
+        
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+        .callout p{
+            font-size: var(--size-2xl);
+            margin-bottom: 2px;
+        }
+
+        .callout:hover{
+            animation-play-state: paused;
+            cursor:pointer;
+        }
+
+        .callout a{
+            color: var(--col-white);
+        }
+        .callout-banner .callout a:hover{
+            color: var(--col-white);
+        }
+        /* close the banner */
+      
+    }
+
+/* xxl */
+@media (min-width: 1536px) {
+}

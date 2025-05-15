@@ -1,10 +1,72 @@
 div.background {
     background-image:
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.443) 60%, white 100%),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.507) 60%, white 100%),
         url('/attachments/IMG_2469.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+    
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section {
+        margin-top: 10rem;
+    }
+}
+
+/*^ current view xl */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+    section.one{
+        margin-top: 15%;
+    }
+    section.one h1{
+        font-size: var(--size-8xl);
+        font-weight: 300;
+    }
+
+    i.fa-brands{
+        font-size: var(--size-2xl);
+        }
+                 span {
+                     font-size: var(--size-xl);
+                 }
+
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
 }
