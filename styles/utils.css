@@ -53,6 +53,7 @@
     margin-top: 5rem;
 }
 .loader-wrapper {
+    overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
