@@ -10,6 +10,9 @@
 
 /* xs */
 @media (min-width: 475px) {  
+    .callout-banner{
+        display: none;
+    }
     }
 
 /* sm */
@@ -20,9 +23,7 @@
 /* md */
 @media (min-width: 768px) {
 
-    .callout-banner{
-        display: none;
-    }
+    
     }
 
 /* lg */
@@ -42,7 +43,6 @@
             width: 99vw;
             background-color: var(--col-copper);
             color: white;
-            padding: 0.5rem 0;
             overflow:hidden;
         }
     
@@ -62,10 +62,10 @@
                     }
                 }
         .callout p{
+            
             font-size: var(--size-2xl);
-            margin-bottom: 2px;
         }
-
+        
         .callout:hover{
             animation-play-state: paused;
             cursor:pointer;
@@ -74,10 +74,15 @@
         .callout a{
             color: var(--col-white);
         }
-        .callout-banner .callout a:hover{
-            color: var(--col-white);
+        
+        .callout:hover{
+        background-color: var(--col-white);
+        color: var(--col-copper);
         }
-        /* close the banner */
+        .callout-banner .callout a:hover{
+            color: var(--col-copper);
+        }
+      
       
     }
 

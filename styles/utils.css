@@ -28,14 +28,130 @@
 /* @media (min-width: 1536px) {
 } */
 /* *********** here I add the styles that repeat itself ********** */
-
-.btn {
-    
+/* button */
+.btn-76,
+.btn-76 *,
+.btn-76 :after,
+.btn-76 :before,
+.btn-76:after,
+.btn-76:before {
+    border: 0 solid;
+    box-sizing: border-box;
 }
 
-.btn:hover {
-    
+.btn-76 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: var(--col-dark-blue);
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
 }
+
+.btn-76:disabled {
+    cursor: default;
+}
+
+.btn-76:-moz-focusring {
+    outline: auto;
+}
+
+.btn-76 svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.btn-76 [hidden] {
+    display: none;
+}
+
+.btn-76 {
+
+    box-sizing: border-box;
+    display: block;
+    font-weight: 900;
+    -webkit-mask-image: none;
+    outline: 4px solid #fff;
+    outline-offset: -4px;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    left:256px;
+    text-transform: uppercase;
+    transition: 0.2s linear 0.1s;
+}
+
+.btn-76:hover {
+    background: var(--col-copper);
+    box-shadow: 0 0 5px var(--col-copper), 0 0 25px var(--col-copper), 0 0 50px var(--col-copper),
+        0 0 100px var(--col-copper);
+    color: #fff;
+    outline-color: transparent;
+    transition: 0.2s linear 0.6s;
+}
+
+.btn-76 span {
+    display: block;
+    inset: 0;
+    position: absolute;
+}
+
+.btn-76 .top {
+    border-top: 4px solid var(--col-copper);
+    opacity: 0;
+    transform: translateX(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .top {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear;
+}
+
+.btn-76 .right {
+    border-right: 4px solid var(--col-copper);
+    opacity: 0;
+    transform: translateY(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .right {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.2s;
+}
+
+.btn-76 .bottom {
+    border-bottom: 4px solid var(--col-copper);
+    opacity: 0;
+    transform: translateX(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .bottom {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.4s;
+}
+
+.btn-76 .left {
+    border-left: 4px solid var(--col-copper);
+    opacity: 0;
+    transform: translateY(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-76:hover .left {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.6s;
+}
+/*  */
 
 .container {
     /* background-color: blueviolet; */

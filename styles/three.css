@@ -1,0 +1,38 @@
+.three a{
+    color: var(--col-copper);
+}
+.three a:hover {
+    border-bottom: 1px solid var(--col-copper);
+}
+
+ .video-container iframe {
+     display: block;
+     max-width: 100%;
+        border: none;
+        border-radius: 16px;}
+
+     .video-container{
+        position: relative;
+            overflow: hidden;
+            margin: 30px auto;
+            max-width: 560px;
+            max-height: 315px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+     }
+
+         /* lg */
+         @media (min-width: 1024px) {
+             .container {
+                 max-width: 1024px;
+             }
+    
+             .section {
+                 margin-top: 10rem;
+             }
+             div.videos{
+                display: flex;
+                gap: 2; 
+                justify-content: center;
+             }
+         }
