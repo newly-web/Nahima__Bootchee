@@ -4,7 +4,6 @@
 .three a:hover {
     border-bottom: 1px solid var(--col-copper);
 }
-
  .video-container iframe {
      display: block;
      max-width: 100%;
