@@ -62,7 +62,6 @@
                     }
                 }
         .callout p{
-            
             font-size: var(--size-2xl);
         }
         
@@ -75,15 +74,6 @@
             color: var(--col-white);
         }
         
-        .callout:hover{
-        background-color: var(--col-white);
-        color: var(--col-copper);
-        }
-        .callout-banner .callout a:hover{
-            color: var(--col-copper);
-        }
-      
-      
     }
 
 /* xxl */
