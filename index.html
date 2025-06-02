@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/styles/one.css">
   <link rel="stylesheet" href="/styles/two.css">
   <link rel="stylesheet" href="/styles/three.css">
+  <link rel="stylesheet" href="/styles/platforms.css">
   <link rel="stylesheet" href="/styles/footer.css">
 
   <!--! add all styles before this -->
@@ -211,12 +212,33 @@
       <div class="image-wrapper"><img class="img-fluid " src="/attachments/compressed/IMG_7489.jpeg" alt=""></div>
     </div>
   </section>
+  <!-- didnt put in section because it was not possible to add gradient -->
+  <div class="platforms text-center d-flex flex-column">
+    <h3>Listen Now On</h3>
+    <div>
+      <i class="fa-brands fa-spotify"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-itunes-note"></i>
+    </div>
+    <div>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/artist/54g5b0LQIKQFuxwM6QOqYR?utm_source=generator" width="50%" height="372"
+        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
   <section class="container section three" id="trending">
+    <div>
+      
     <h2 class="py-2">Check out trending <strong><a href=" https://youtube.com/@nahimabootchee?feature=shared ">YouTube</a></strong> videos</h2>
     <!-- this is where i'll add the yt api  -->
     <div class="videos">
         <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/BWgx20gwvcM?si=noAskvNISwCxWzRs"
+          <!-- this is a playlist, will be updated for every new video added in here -->
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/videoseries?si=plsGi31zolbB7DGW&amp;list=PLTeEeV655XwMe003vU8uxcP3cYEvUkhBT"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -246,9 +268,7 @@
 
     <div id="callout" class="callout">
       <p><a  href="link"><i class="fa-duotone fa-thin fa-fire-flame"></i> NAME OF THE SINGLE OUT Now! | <i
-            class="fa-duotone fa-light fa-headphones-simple"></i> Stream Bootchee on ALL PLATFORMS <i
-            class="fa-brands fa-spotify"></i> <i class="fa-brands fa-youtube"></i> <i
-            class="fa-brands fa-itunes-note"></i></a></p>
+            class="fa-duotone fa-light fa-headphones-simple"></i> Stream Bootchee on ALL PLATFORMS</a></p>
 
 
     </div>
