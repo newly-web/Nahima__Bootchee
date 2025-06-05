@@ -11,7 +11,9 @@
     height: auto;
     /* optional: adjust for column layout */
 }
-
+a.linktree{
+    color:var(--col-white);
+}
 
 button.btn-76{
     left:30px;

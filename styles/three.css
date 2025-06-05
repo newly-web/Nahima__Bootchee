@@ -2,6 +2,8 @@
     color: var(--col-copper);
 }
 .three a:hover {
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g fill="none" stroke="%2314699E" stroke-width="0.75"><circle cx="12" cy="12" r="8.5"></circle><path d="M1 12h5M18 12h5M12 6V1.04M12 23v-4.96M11.95 11.95h.1v.1h-.1z"></path></g></svg>'),
+        pointer;;
     border-bottom: 1px solid var(--col-copper);
 }
  .video-container iframe {
@@ -18,6 +20,21 @@
             max-height: 315px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
      }
+.CTA button.btn-40 {
+        cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g fill="none" stroke="%2314699E" stroke-width="0.75"><circle cx="12" cy="12" r="8.5"></circle><path d="M1 12h5M18 12h5M12 6V1.04M12 23v-4.96M11.95 11.95h.1v.1h-.1z"></path></g></svg>'), auto;
+    margin-bottom: 10%;
+}
+
+.CTA span.old{
+    color: var(--col-white);
+    font-weight: 900;
+}
+
+.CTA span.new{
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><g fill="none" stroke="%2314699E" stroke-width="0.75"><circle cx="12" cy="12" r="8.5"></circle><path d="M1 12h5M18 12h5M12 6V1.04M12 23v-4.96M11.95 11.95h.1v.1h-.1z"></path></g></svg>'),
+            pointer;
+    font-weight: 900;
+}
 
          /* lg */
          @media (min-width: 1024px) {

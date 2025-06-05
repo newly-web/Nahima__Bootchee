@@ -1,24 +1,25 @@
 div.platforms{
     padding: 4% 0;
     border-radius: 10px;
-    padding-bottom: 5%;
+    padding-bottom: 6%;
     width: 85.5%;
     margin: 100px auto;
-    box-shadow: 0 0 15px 5px #48abe0,
-            0 0 20px 15px #2582a9,
-            0 0 15px 10px #14699e;
+    box-shadow: 0 0 15px 5px #ffbc8c,
+            0 0 20px 15px #bb6c35,
+            0 0 15px 10px #bb6c35;
 }
 
 
 .platforms h3{
     font-size: var(--size-xl);
     margin-bottom: 1%;
+    color: var(--col-copper);
 }
 
 .platforms i{
     font-size: var(--size-6xl);
     margin-left: 1%;
     margin-bottom: 2%;
-    color: var(--col-blue);
-    text-shadow: 0 0 5px var(--col-blue);
+    color: var(--col-copper);
+    text-shadow: 0 0 5px var(--col-copper);
 }
