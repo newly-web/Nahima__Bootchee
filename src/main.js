@@ -6,6 +6,13 @@ window.addEventListener("load", function () {
 
 });
 
+// Close menu when a link is clicked
+document.querySelectorAll('.nav ul li a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.getElementById('menu-toggle').checked = false;
+    });
+});
+
 // automatic email redirect
 window.handleEmailClick = function () {
     const email = "Jaciliennahimabusiness@gmail.com";
