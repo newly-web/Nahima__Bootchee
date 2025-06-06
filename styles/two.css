@@ -47,6 +47,23 @@ button.btn-76{
     text-align: justify;
 }
 
+/* xxs */
+@media (min-width: 375px) {
+.hidden {
+        display: none;
+    }
+        button.btn-76 {
+            left: 35px;
+        }
+}
+/* specific phones */
+@media (min-width:420px) {
+
+    button.btn-76 {
+        left: 49px;
+    }
+}
+
 /* xs */
 @media (min-width: 475px) {
     .container {
@@ -64,9 +81,7 @@ button.btn-76{
                 button.btn-76 {
                     left:65px;
                 }
-                .hidden{
-                    display: none;
-                }
+                
                   
 }
 
