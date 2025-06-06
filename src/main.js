@@ -7,9 +7,9 @@ window.addEventListener("load", function () {
 });
 
 // Close menu when a link is clicked
-document.querySelectorAll('.nav ul li a').forEach(link => {
+document.querySelectorAll('.nav a').forEach(link => {
     link.addEventListener('click', () => {
-        document.getElementById('menu-toggle').checked = false;
+        document.getElementById('menu-icon').checked = false;
     });
 });
 
