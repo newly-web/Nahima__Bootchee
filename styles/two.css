@@ -11,6 +11,30 @@
     height: auto;
     /* optional: adjust for column layout */
 }
+/* scrolling */
+.scroll-element1{
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1.6s ease-in;
+}
+
+.scroll-element2 {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1.9s ease-in;
+}
+
+.scroll-element3 {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 2.3s ease-in;
+}
+
+.slide-in.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 a.linktree{
     color:var(--col-white);
 }
@@ -19,7 +43,9 @@ button.btn-76{
     left:30px;
     margin-bottom: 45px;
 }
-
+.about p {
+    text-align: justify;
+}
 
 /* xs */
 @media (min-width: 475px) {
@@ -34,7 +60,6 @@ button.btn-76{
         .about p{
             font-size: var(--size-xs);
             margin-bottom: 5%;
-            text-align: justify;
         }
                 button.btn-76 {
                     left:65px;
