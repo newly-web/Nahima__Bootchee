@@ -32,8 +32,9 @@ button.btn-76{
         }
 
         .about p{
-            font-size: var(--size-sm);
+            font-size: var(--size-xs);
             margin-bottom: 5%;
+            text-align: justify;
         }
                 button.btn-76 {
                     left:65px;
