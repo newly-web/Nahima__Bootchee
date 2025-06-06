@@ -64,6 +64,9 @@ button.btn-76{
                 button.btn-76 {
                     left:65px;
                 }
+                .hidden{
+                    display: none;
+                }
                   
 }
 
@@ -130,6 +133,9 @@ button.btn-76{
                   button.btn-76 {
                       left: 205px;
                   }
+                                   .hidden {
+                                       display: block;
+                                   }
 }
 
 /* ^ xl current view */
