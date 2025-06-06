@@ -10,16 +10,82 @@ div.platforms{
 }
 
 
-.platforms h3{
-    font-size: var(--size-xl);
-    margin-bottom: 1%;
-    color: var(--col-copper);
-}
 
-.platforms i{
-    font-size: var(--size-6xl);
-    margin-left: 1%;
-    margin-bottom: 2%;
-    color: var(--col-copper);
-    text-shadow: 0 0 5px var(--col-copper);
+
+/* Media Queries */
+
+/* extra small (phones) */
+@media (min-width: 375px) {
+    .platforms h3 {
+        font-size: var(--size-3xl);
+        margin-bottom: 2%;
+        color: var(--col-copper);
+    }
+
+    .platforms i {
+        font-size: var(--size-5xl);
+        margin-left: 1%;
+        margin-bottom: 3%;
+        color: var(--col-copper);
+        text-shadow: 0 0 5px var(--col-copper);
+    }
+
+    .spotifyEmbed {
+        margin: 0 auto;
+        width: 80%;
+    }
 }
+/* xs */
+@media (min-width: 475px) {  
+    .platforms h3 {
+            font-size: var(--size-3xl);
+            margin-bottom: 2%;
+            color: var(--col-copper);
+        }
+    .platforms i{
+            font-size: var(--size-5xl);
+                margin-left: 1%;
+                margin-bottom: 3%;
+                color: var(--col-copper);
+                    text-shadow: 0 0 5px var(--col-copper);
+    }
+        .spotifyEmbed {
+            margin: 0 auto;
+            width: 90%;
+        }
+    } 
+
+/* sm */
+/* @media (min-width: 640px) {
+    
+    } */
+
+/* md */
+ @media (min-width: 768px) {
+.spotifyEmbed {
+        margin: 0 auto;
+        width: 80%;
+    }
+    } 
+
+/* lg */
+@media (min-width: 1024px) {
+.platforms i {
+        font-size: var(--size-6xl);
+        margin-left: 1%;
+        margin-bottom: 2%;
+    }
+.spotifyEmbed {
+    margin: 0 auto;
+    width: 50%;
+}
+    } 
+
+/* xl */
+/* @media (min-width: 1280px) {
+    
+    } */
+
+/* xxl */
+/* @media (min-width: 1536px) {
+} */

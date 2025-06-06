@@ -285,7 +285,7 @@
    .loader-wrapper.fade-out {
        opacity: 0;
        visibility: hidden;
-       transition: all 1s ease;
+       transition: all 0.7s ease;
    }
   .loader {
       width: 45px;
@@ -324,7 +324,11 @@
       }
   }
 
-
+@media (min-width: 375px) {
+   .section {
+       padding: 0 5%;
+   }
+}
 /* xs */
 @media (min-width: 475px) {
     .container {
@@ -337,6 +341,7 @@
     .container {
         max-width: 640px;
     }
+        
 }
 
 /* md */
