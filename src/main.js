@@ -15,7 +15,7 @@ document.querySelectorAll('.nav a').forEach(link => {
 
 // automatic email redirect
 window.handleEmailClick = function () {
-    const email = "Jaciliennahimabusiness@gmail.com";
+    const email = "nbjacilien@gmail.com";
    
     navigator.clipboard.writeText(email)
         .then(() => alert("Email copied to clipboard!"))
