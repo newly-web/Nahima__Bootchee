@@ -72,8 +72,8 @@ button.btn-76{
         }
 
         .about p{
-            font-size: var(--size-xs);
-            margin-bottom: 5%;
+            font-size: var(--size-md);
+            margin-bottom: 2%;
         }
                
                 
@@ -86,7 +86,7 @@ button.btn-76{
         max-width: 640px;
     }
         .about {
-            max-width: 520px;
+            max-width: 640px;
         }
         .about p{
                         font-size: var(--size-md);
@@ -100,7 +100,7 @@ button.btn-76{
         max-width: 768px;
     }
          .about {
-             max-width: 600px;
+             max-width: 768px;
          }
                  
         
@@ -115,11 +115,9 @@ button.btn-76{
     .section {
         margin-top: 10rem;
     }
-    .about p{
-        font-size: var(--size-md);
-    }
+   
          .about {
-             max-width: 700px;
+             max-width: 1024px;
          }
 
                   .images {
@@ -148,7 +146,7 @@ button.btn-76{
     }
     
         .about {
-            max-width: 800px;
+            max-width: 1280px;
         }
         .about .btn{
             font-size: var(--size-xl);           
@@ -164,7 +162,7 @@ button.btn-76{
     }
 
  .about {
-     max-width: 900px;
+     max-width: 1536px;
  }
         
 }
