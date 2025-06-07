@@ -40,8 +40,9 @@ a.linktree{
 }
 
 button.btn-76{
-    left:30px;
     margin-bottom: 45px;
+    left: 50%;
+        transform: translateX(-50%);
 }
 .about p {
     text-align: justify;
@@ -52,16 +53,12 @@ button.btn-76{
 .hidden {
         display: none;
     }
-        button.btn-76 {
-            left: 38px;
-        }
+        
 }
 /* specific phones */
 @media (min-width:420px) {
 
-    button.btn-76 {
-        left: 49px;
-    }
+   
 }
 
 /* xs */
@@ -78,9 +75,7 @@ button.btn-76{
             font-size: var(--size-xs);
             margin-bottom: 5%;
         }
-                button.btn-76 {
-                    left:65px;
-                }
+               
                 
                   
 }
@@ -96,9 +91,7 @@ button.btn-76{
         .about p{
                         font-size: var(--size-md);
         }
-                button.btn-76 {
-                  left: 105px;
-                }
+              
 }
 
 /* md */
@@ -109,9 +102,7 @@ button.btn-76{
          .about {
              max-width: 600px;
          }
-                  button.btn-76 {
-                      left: 150px;
-                  }
+                 
         
 }
 
@@ -145,10 +136,7 @@ button.btn-76{
                       object-fit: cover;
         
                   }
-                  button.btn-76 {
-                      left: 205px;
-                  }
-                                   .hidden {
+                              .hidden {
                                        display: block;
                                    }
 }
@@ -165,9 +153,7 @@ button.btn-76{
         .about .btn{
             font-size: var(--size-xl);           
 }
-                 button.btn-76 {
-                     left: 260px;
-                 }
+              
                
 }
 
@@ -180,7 +166,5 @@ button.btn-76{
  .about {
      max-width: 900px;
  }
-         button.btn-76 {
-             left: 310px;
-         }
+        
 }

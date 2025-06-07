@@ -23,7 +23,7 @@ div.platforms{
     }
 
     .platforms i {
-        font-size: var(--size-lg);
+        font-size: var(--size-3xl);
         margin-left: 1%;
         margin-bottom: 3%;
         color: var(--col-copper);
@@ -43,7 +43,7 @@ div.platforms{
             color: var(--col-copper);
         }
     .platforms i{
-            font-size: var(--size-xl);
+            font-size: var(--size-4xl);
                 margin-left: 1%;
                 margin-bottom: 3%;
                 color: var(--col-copper);
