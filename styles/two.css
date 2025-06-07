@@ -50,12 +50,7 @@ button.btn-76 {
 }
 
 /* xxs */
-@media (min-width: 375px) {
-    .hidden {
-        display: none;
-    }
 
-}
 
 /* specific phones */
 @media (min-width:420px) {}
@@ -137,9 +132,7 @@ button.btn-76 {
 
     }
 
-    .hidden {
-        display: block;
-    }
+  
 
     .btn-76:hover {
         background: var(--col-copper);

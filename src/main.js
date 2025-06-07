@@ -2,9 +2,20 @@
 // loader
 window.addEventListener("load", function () {
     const loader = document.getElementById("preloader");
-    loader.classList.add("fade-out"); // Fade out loader
 
+    // Prevent scrolling while loader is visible
+    document.body.classList.add("no-scroll");
+
+    // Fade out loader
+    loader.classList.add("fade-out");
+
+    // After fade-out animation, remove loader and allow scroll again
+    loader.addEventListener("transitionend", function () {
+        loader.style.display = "none";
+        document.body.classList.remove("no-scroll");
+    });
 });
+
 
 // Close menu when a link is clicked
 document.querySelectorAll('.nav a').forEach(link => {
