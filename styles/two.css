@@ -132,9 +132,10 @@ button.btn-76 {
 
     }
 
-  
-
-    .btn-76:hover {
+  .about p {
+     font-size: var(--size-xl);
+  }
+    .btn-76:hover{
         background: var(--col-copper);
         box-shadow: 0 0 5px var(--col-copper), 0 0 25px var(--col-copper), 0 0 50px var(--col-copper),
             0 0 100px var(--col-copper);
