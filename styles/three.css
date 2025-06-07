@@ -45,7 +45,7 @@
                           }
                          .CTA button.btn-40 {
                              cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
-                             margin-bottom: 10%;
+                             margin-bottom: 5%;
                          }
             
                          .CTA span.old {
