@@ -85,15 +85,6 @@
     transition: 0.2s linear 0.1s;
 }
 
-.btn-76:hover {
-    background: var(--col-copper);
-    box-shadow: 0 0 5px var(--col-copper), 0 0 25px var(--col-copper), 0 0 50px var(--col-copper),
-        0 0 100px var(--col-copper);
-    color: var(--col-white);
-    outline-color: transparent;
-    transition: 0.2s linear 0.6s;
-        cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
-}
 
 .btn-76 span {
         cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
@@ -110,12 +101,6 @@
     transition: none;
 }
 
-.btn-76:hover .top {
-        cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
-    --progress: 100%;
-    opacity: 1;
-    transition: transform 0.2s linear;
-}
 
 .btn-76 .right {
         cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
@@ -125,11 +110,6 @@
     transition: none;
 }
 
-.btn-76:hover .right {
-    --progress: 100%;
-    opacity: 1;
-    transition: transform 0.2s linear 0.2s;
-}
 
 .btn-76 .bottom {
     border-bottom: 4px solid var(--col-copper);
@@ -138,11 +118,6 @@
     transition: none;
 }
 
-.btn-76:hover .bottom {
-    --progress: 100%;
-    opacity: 1;
-    transition: transform 0.2s linear 0.4s;
-}
 
 .btn-76 .left {
     cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%2314699E" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>'), auto;
@@ -152,11 +127,7 @@
     transition: none;
 }
 
-.btn-76:hover .left {
-    --progress: 100%;
-    opacity: 1;
-    transition: transform 0.2s linear 0.6s;
-}
+
 /*  */
 
 .btn-40,
