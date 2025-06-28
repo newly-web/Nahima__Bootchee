@@ -284,12 +284,13 @@ section.one h1 {
 
 /*  */
 
-
  i.fa-brands {
      font-size: var(--size-3xl);
      overflow: hidden;
  }
-
+i#fa-personal{
+    color: var(--col-copper);
+}
 /* xs */
 @media (min-width: 475px) {
     .container {
